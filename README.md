@@ -1,2 +1,6 @@
-# web_231
-Assignments for Introduction to JavaScript
+# WEB 231 Enterprise JavaScript I
+
+## Contributors
+* Professor Krasso
+* Laurel Condon
+
