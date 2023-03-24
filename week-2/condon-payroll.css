@@ -5,6 +5,9 @@
 : Description: CSS page for assignment 2.2    
 */
 
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 .employee-list {
     border: 1px dotted red;
 }
