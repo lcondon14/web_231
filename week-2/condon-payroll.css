@@ -1,0 +1,14 @@
+/*
+; Title: condon-payroll.css
+; Author: Laurel Condon
+; Date: 24 March 2023
+: Description: CSS page for assignment 2.2    
+*/
+
+.employee-list {
+    border: 1px dotted red;
+}
+
+#payroll-header {
+    text-align: center;
+}
