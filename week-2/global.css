@@ -7,12 +7,12 @@
 
 /* Beginning of styles inherited from Web 200 */
 
+/* Section containing styles for card class */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     /* Width of 50% removed */
 }
-
 .card-title {
 /* Remove text:align center for Assignment 2.2 */
     font-size: 16px;
@@ -21,15 +21,16 @@
     /* Added padding for Assignment 2.2 */
     padding: 5px;
 }
-
 .card-content {
     padding: 2px 16px;
 }
-
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+/* End of section contain styles for card class */
 
+
+/* Section containing styles for button class */
 .btn {
     border: none;
     text-align: center;
@@ -51,7 +52,9 @@
     background-color: #d6A800;
     color: #4F3674
 }
+/* End of section containing styles for button class */
 
+/* Section containing styles for input and form class */
 .input {
     padding: 12px 20px;
     margin: 8px 0;
@@ -60,7 +63,6 @@
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 .input {
     padding: 12px 20px;
     margin: 8px 0;
@@ -69,18 +71,16 @@
     border-radius: 4px;
     box-sizing: border-box;
 }
-
-.full-width {
-    width: 100%;
-}
-
 .form {
     display: inline-grid;
     grid-template-columns: auto;
 }
-
 .form-field {
     padding: 20px;
+}
+
+.full-width {
+    width: 100%;
 }
 
 /* End of styles inherited from WEB 200 */
