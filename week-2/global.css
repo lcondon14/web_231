@@ -5,6 +5,7 @@
 * Description: Global CSS page
 */
 
+/* Beginning of styles inherited from Web 200 */
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -13,10 +14,12 @@
 }
 
 .card-title {
-    text-align: center;
-    font-size: 2em;
+/* Remove text:align center for Assignment 2.2 */
+    font-size: 16px;
     color: #4F3674;
     font-weight: 400;
+    /* Added padding for Assignment 2.2 */
+    padding: 5px;
 }
 
 .card-content {
@@ -83,6 +86,47 @@
 /* End of styles inherited from WEB 200 */
 
 body {
- background-color: blue;
- color: #d6A800;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+/** Code added for Assignment 2.2 */
+
+.return-home {
+    color:#4F3674;
+    text-decoration: none;
+}
+
+.return-home:hover {
+    background: #d6a800;
+    color: #4f3674;
+}
+
+.return-home:visited {
+    color: #3c275a;
+} 
+
+h1, h2, h3, h4 {
+ background-color: #3c275a;
+ color: white;
+ border: 1px solid #d6A800;
+ padding: 10px;
+}
+
+.drop-down-menu {
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display:inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.app-header {
+    text-align: center;
+    font-weight: 400;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }

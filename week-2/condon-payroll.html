@@ -11,16 +11,20 @@
     <meta charset="UTF-8">
     <title>WEB 231-Enterprise JavaScript I: Assignment 2.2</title>
 
-        <!--Link to external stylesheet and Google Fonts-->
-        <link rel="stylesheet" type="text/css" href="../global.css">
+        <!-- Link to external stylesheet and Google Fonts -->
         <link rel="stylesheet" type="text/css" href="condon-payroll.css">
+        <link rel="stylesheet" type="text/css" href="global.css">
 
+        <!-- Link to Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
 </head> 
 
+<!---->
 <body>
     <div id="container">
         <h1 class="app-header" id="payroll-header">Payroll System</h1>
+
+<!-- First employee card with ludwig information -->         
         <div class="card">
             <div class="card-title"><h3>Employee record 1</h3></div>
                 <div class="card-content">
@@ -28,13 +32,13 @@
                         <li id="ludwig-firstName"></li>
                         <li id="ludwig-lastName"></li>
                         <li id="ludwig-address"></li>
-                        <li id="ludwig-date"></li>
+                        <li id="ludwig-hireDate"></li>
                         <li id="ludwig-payRate"></li>
                     </ul>
                 </div>
         </div>
-<!-- First employee card with ludwig information -->  
-
+ 
+<!-- Second employee card with bach information-->
         <div class="card">
             <div class="card-title"><h3>Employee record 2</h3></div>
             <div class="card-content">
@@ -42,13 +46,13 @@
                     <li id="bach-firstName"></li>
                     <li id="bach-lastName"></li>
                     <li id="bach-address"></li>
-                    <li id="bach-date"></li>
+                    <li id="bach-hireDate"></li>
                     <li id="bach-payRate"></li>
                 </ul>
             </div>
         </div>
-<!-- Second employee card with bach information-->
 
+<!-- Third employee card with wolfgang information-->
         <div class="card">
             <div class="card-title"><h3>Employee record 3</h3></div>
             <div class="card-content">
@@ -56,19 +60,19 @@
                 <li id="wolfgang-firstName"></li>
                 <li id="wolfgang-lastName"></li>
                 <li id="wolfgang-address"></li>
-                <li id="wolfgang-date"></li>
+                <li id="wolfgang-hireDate"></li>
                 <li id="wolfgang-payRate"></li>
                 </ul>
             </div>
         </div>
-<!-- Third employee card with wolfgang information-->
+
     </div>
-
+<!-- Return home button -->    
     <a href="https://github.com/lcondon14/web_231" class="return-home">Return</a>
-<!-- Return button -->    
-
- <script src="condon-payroll.js"></script>
+   
  <!-- JavaScript file linked-->
+ <script src="condon-payroll.js"></script>
+
 
 </body>
 
