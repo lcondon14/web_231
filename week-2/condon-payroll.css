@@ -5,13 +5,12 @@
 : Description: CSS page for assignment 2.2    
 */
 
-body {
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-}
+/** Employee list styles added assignment 2.2 */
 .employee-list {
     border: 1px dotted red;
 }
 
+/** Payroll header center font */
 #payroll-header {
     text-align: center;
 }
