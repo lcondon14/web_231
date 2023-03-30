@@ -4,3 +4,27 @@
 ; Date: 30 March 2023
 : Description: CSS page for assignment 3.2
 */
+
+
+
+#fav-header {
+  text-align: center;
+  color: black;
+  font-weight: 400;
+}
+
+
+#card-fav-header {
+  text-align: center;
+  color: #4F3674;
+  font-weight: 400;
+}
+
+
+#container {
+  width: 500px;
+  margin: auto
+}
+
+
+
