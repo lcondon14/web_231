@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--Character encoding stated-->
     <meta charset="UTF-8">
     <title>WEB 231-Enterprise JavaScript I: Assignment 3.2</title>
 
@@ -19,35 +20,48 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
+<!-- The body element containing the contents of this document -->
+<body>
 
-<div>
-
+<!-- The container for this card element -->
 <div id="container">
+
+<!-- The header for the container element -->
     <h1 class="app-header" id="fav-header">Welcome to the Favorites App!</h1>
 
   <div class="card">
 
     <div class="card-content">
-
+<!-- Header for the favorites card container -->
       <h2 id="card-fav-header">My Favorites</h2>
 
+<!-- Contains button for Favorite Sports Team with onclick function -->
       <div class="form-field">
         <button type="button" class="btn btn-primary full-width" id="btnFavTeam" onclick="favTeam()">Favorite Sports Team</button>
       </div>
+
+<!-- Contains button for Favorite Book with onclick function -->
       <div class="form-field">
         <button type="button" class="btn btn-primary full-width" id="btnFavBook" onclick="favBook()">Favorite Book</button>
       </div>
+
+<!-- Contains button for Favorite Author with onclick function -->
       <div class="form-field">
         <button type="button" class="btn btn-primary full-width" id="btnFavAuthor" onclick="favAuthor()">Favorite Author</button>
       </div>
+
+<!-- Contains button for Favorite Programming Language with onclick function -->
       <div class="form-field">
         <button type="button" class="btn btn-primary full-width" id="btnFavProLanguage" onclick="favProLanguage()">Favorite Programming Language</button>
       </div>
     </div>
     </div>
 
-<a< href="https://lcondon14.github.io/web_231/" class="return-home">Return</a>
+<!-- Contains link to return to the homepage -->
+<a href="https://lcondon14.github.io/web_231/" class="return-home">Return</a>
   </div>
+
+<!-- The script element to link the favorites card app to Javascript file -->
 <script src="condon-favorites.js"></script>
 
 </body>
