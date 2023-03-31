@@ -6,23 +6,7 @@
 */
 
 /* Welcome to the favorite app! header styles */
-#fav-header {
-  background-color: white;
-  color: black;
-  border-color: white;
-  border: none;
-}
 
-/* Card header styling */
-#card-fav-header {
-  background-color: white;
-  color: #4F3674;
-  text-align: center;
-  font-weight: 400;
-  border-color: white;
-  border: none;
-  margin: 3px;
-}
 
 /* Addition container styles for Assignment 3.2 */
 #container {

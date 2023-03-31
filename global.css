@@ -105,12 +105,6 @@ body {
     color: #3c275a;
 }
 
-h1, h2, h3, h4 {
- background-color: #3c275a;
- color: white;
- border: 1px solid #d6A800;
- padding: 10px;
-}
 
 .drop-down-menu {
     padding: 12px 20px;
@@ -126,3 +120,18 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 
+.app-header-sub {
+  background-color: white;
+  color: #4F3674;
+  text-align: center;
+  font-weight: 400;
+  border-color: white;
+  border: none;
+  margin: 3px;
+  padding: 10px;
+}
+
+#container {
+  margin: auto;
+  width: 600px;
+}

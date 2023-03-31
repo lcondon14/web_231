@@ -1,0 +1,19 @@
+/*
+; Title: condon-favorites.css
+; Author: Laurel Condon
+; Date: 30 March 2023
+: Description: CSS page for assignment 3.2
+*/
+
+/* Styles for conversion results */
+#form-results {
+  width: 600px;
+  margin:auto
+}
+
+/* Styles for output value of form field */
+#temp-results {
+  text-align: center;
+  font-size: 25px;
+  padding: 3px;
+}
