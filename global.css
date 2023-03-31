@@ -118,8 +118,11 @@ body {
 .app-header {
     text-align: center;
     font-weight: 400;
+  /** font size and margin added for week-3 */
+    font-size: 30px;
+    margin-bottom: 20px;
 }
-
+/** .app-header-sub styles added for week-3 */
 .app-header-sub {
   background-color: white;
   color: #4F3674;
@@ -128,10 +131,23 @@ body {
   border-color: white;
   border: none;
   margin: 3px;
-  padding: 10px;
+  padding: 5px;
 }
 
-#container {
+.card-example {
   margin: auto;
   width: 600px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+  background-color: #3C275A;
+  color: white;
+  border: 1px solid #D6A800;
+  padding: 10px;
 }
