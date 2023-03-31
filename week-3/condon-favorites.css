@@ -26,7 +26,13 @@
 
 /* Addition container styles for Assignment 3.2 */
 #container {
-  width: 600px;
+  margin: auto;
+  max-width: 600px;
+
+}
+
+.card-title {
+  text-align: center;
 }
 
 
