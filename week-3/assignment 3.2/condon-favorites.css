@@ -1,0 +1,23 @@
+/*
+; Title: condon-favorites.css
+; Author: Laurel Condon
+; Date: 30 March 2023
+: Description: CSS page for assignment 3.2
+*/
+
+/* Welcome to the favorite app! header styles */
+
+
+/* Addition container styles for Assignment 3.2 */
+#container {
+  margin: auto;
+  max-width: 600px;
+
+}
+
+.card-title {
+  text-align: center;
+}
+
+
+
