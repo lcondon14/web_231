@@ -4,3 +4,10 @@
 ; Date: 5 April 2023
 : Description: CSS page for assignment 4.2
 */
+
+/* Styles for the results of user input */
+
+#form-results {
+  width: 600px;
+  margin:auto
+}
