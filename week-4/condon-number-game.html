@@ -1,0 +1,63 @@
+<!--
+; Title: condon-number-game.html
+; Author: Laurel Condon
+; Date: 5 April 2023
+: Description: HTML page for assignment 4.2
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Title for webpage-->
+    <title>WEB 231-Enterprise JavaScript I: Assignment 4.3</title>
+
+        <!-- Link to external stylesheet and Google Fonts -->
+        <link rel="stylesheet" type="text/css" href="condon-number-game.css">
+        <link rel="stylesheet" type="text/css" href="../../global.css">
+
+        <!-- Link to Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="container">
+    <div class="app-header" id="plain-header">Welcome to the numbers game!</div>
+
+    <div class="card-example">
+      <div class="card">
+ <!-- Header for Guessing the Number -->
+      <h2 class="app-header-sub">Pick a number between 1 and 10</h2>
+      <div class="card-content">
+        <div class="form">
+
+<!-- User input area to guess the number -->
+          <div class="form-field">
+<!--Label and text input area for guess-->
+            <label for="guessNum">Guess the number:</label>
+            <input type="text" class="input" id="guessNum" name="guessNum">
+          </div>
+          <div class="form-field">
+<!-- Area for Submit Button -->
+          <button type="button" onclick="chkGuess()" class="btn btn-primary full-width">Submit</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Element that contains the results of users number guess -->
+<div id="form-results">
+  <div class="card">
+    <h2 class="app-header-sub">Results</h2>
+    <div class="card-contant">
+      <div id="test-results"></div>
+    </div>
+  </div>
+<!-- Element that returns to the homepage -->
+<a href="https://lcondon14.github.io/web_231/" class="return-home">Return</a>
+</div>
+</div>
+<!-- Script element linked to the JavaScript file -->
+<script src="condon-number-game.js"></script>
+</body>
