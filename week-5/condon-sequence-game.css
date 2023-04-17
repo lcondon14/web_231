@@ -1,0 +1,11 @@
+/*
+; Title: condon-sequence-game.css
+; Author: Laurel Condon
+; Date: 13 April 2023
+: Description: CSS page for assignment 5.2
+*/
+
+#form-results {
+  width: 600px;
+  margin:auto
+}

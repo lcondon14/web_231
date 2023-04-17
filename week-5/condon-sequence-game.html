@@ -1,0 +1,73 @@
+<!--
+; Title: condon-sequence-game.html
+; Author: Laurel Condon
+; Date: 13  April 2023
+: Description: HTML page for assignment 5.2
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Title for webpage-->
+    <title>WEB 231-Enterprise JavaScript I: Assignment 5.2</title>
+
+        <!-- Link to external stylesheet and Google Fonts -->
+        <link rel="stylesheet" type="text/css" href="condon-sequence-game.css">
+        <link rel="stylesheet" type="text/css" href="../global.css">
+
+        <!-- Link to Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Contains area for the sequence game -->
+<div id="container">
+
+  <!-- Header for Sequence App -->
+    <div class="app-header" id="header-plain">Welcome to the Sequence Game!</div>
+
+    <div class="card-example">
+      <div class="card">
+<!-- Header for celsius conversion -->
+      <h2 class="app-header-sub">Sequence Selection Form</h2>
+      <div class="card-content">
+        <div class="form">
+
+<!-- User input area to select value from drop down menu -->
+          <div class="form-field">
+
+            <label>Choose a number sequence:</label>
+            <select name="number-sequence" class="drop-down-menu" id="number-sequence">
+              <option value="">--Select--</option>
+              <option value="numbers">Numbers</option>
+              <option value="even">Even Numbers</option>
+              <option value="odd">Odd Numbers</option>
+            </select>
+          </div>
+<!-- Onclick button linked to js file that gets number sequence -->
+          <div class="form-field">
+            <button type="button" class="btn btn-primary full-width" id="sequence-button">Display Sequence</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<!-- Form elements that included the results from user selection-->
+  <div id="form-results">
+    <div class="card">
+<!-- Header for form results -->
+      <h2 class="app-header-sub">Sequence Results</h2>
+      <div class="card-content">
+        <div id="test-results"></div>
+      </div>
+    </div>
+<a href="https://lcondon14.github.io/web_231/" class="return-home">Return</a>
+  </div>
+<script src="condon-sequence-game.js"></script>
+</body>
+</html>
