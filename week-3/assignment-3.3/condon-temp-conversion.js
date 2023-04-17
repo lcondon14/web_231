@@ -5,6 +5,7 @@
  * Description: JavaScript page for assignment 3.3
  */
 
+/** Function for calculating fahrenheit to celsius */
 function calcCelsius () {
 
   const fahrenheit = document.getElementById('fahrenheitValue').value
@@ -12,5 +13,5 @@ function calcCelsius () {
 
   const celsius = (fahrenheit - 32) / 1.8
 
-  document.getElementById('temp-results').innerHTML = celsius.toFixed(2)
+  document.getElementById('test-results').innerHTML = celsius.toFixed(2)
 }
