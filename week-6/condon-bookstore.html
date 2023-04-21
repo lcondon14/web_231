@@ -1,0 +1,74 @@
+<!--
+; Title: condon-bookstore.html
+; Author: Laurel Condon
+; Date: 20 April  2023
+: Description: HTML page for assignment 6.2
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>WEB 231-Enterprise JavaScript I: Assignment 6.2</title>
+
+      <!--Link to external stylesheets and Google Fonts-->
+      <link rel="stylesheet" type="text/css" href="condon-bookstore.css">
+      <link rel="stylesheet" type="text/css" href="../global.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+<!-- Contains area for favorite books, authors, and publishers-->
+<div id="container">
+
+  <!-- Header for Bookstore app -->
+  <div class="app-header" id="header-plain">Welcome to the Bookstore App</div>
+
+  <div class="card-example">
+    <div class="card">
+
+<!-- Header for favorites section-->
+    <h2 class="app-header-sub">My Favorites</h2>
+    <div class="card-content">
+      <div class="form">
+
+<!-- User input area t select drop down menu value -->
+      <div class="form-field">
+
+        <label>Choose a listing:</label>
+        <select name="listing-choice" class="drop-down-menu" id="listing-choice">
+          <option value="">--Select--</option>
+          <option value="books">Top 3 Favorite Books</option>
+          <option value="authors">Top 3 Favorite Authors</option>
+          <option value="publishers">Top 3 Favorite Publishers</option>
+        </select>
+      </div>
+
+<!-- Onclick button linked to js file that gets favorites -->
+<div class="form-field">
+  <button type="button" class="btn btn-primary full-width" id="display-button">Display Listing</button>
+</div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- Form elements listed as the result of users selection-->
+<div id="form-results">
+  <div class="card">
+<!-- Div header for results -->
+    <h2 class="app-header-sub">Listing Results</h2>
+    <div class="card-content">
+      <div id="test-results"></div>
+    </div>
+  </div>
+  <a href="https://lcondon14.github.io/web_231/" class="return-home">Return</a>
+
+</div>
+
+<!-- Link to external js file -->
+<script src="condon-bookstore.js"></script>
+</body>
+</html>

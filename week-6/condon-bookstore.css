@@ -1,0 +1,19 @@
+/*
+; Title: condon-bookstore.css
+; Author: Laurel Condon
+; Date: 20  April 2023
+: Description: CSS page for assignment 6.2
+*/
+
+/* Sets h3 font weight to lighter */
+ h3 {
+  font-weight: lighter;
+  background-color: white;
+  color: #4f3674;
+
+ }
+
+ #form-results {
+  width: 600px;
+  margin:auto
+}
