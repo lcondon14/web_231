@@ -1,0 +1,82 @@
+<!--
+  ; Title: condon-calculator.html
+  ; Author: Laurel Condon
+  ; Date: 26 April 2023
+  ; Description; HTML page for Calculator App
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> WEB 231-Enterprise JavaScript I: Assignment 7.2</title>
+<!-- Link to external stylesheets and Google Fonts -->
+         <!-- Link to external stylesheet and Google Fonts -->
+         <link rel="stylesheet" type="text/css" href="condon-calculator.css">
+         <link rel="stylesheet" type="text/css" href="../global.css">
+
+         <!-- Link to Google Fonts -->
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div id="container">
+<div class="app-header" id="plain-header">Welcome to the Calculator App!</div>
+
+<div class="calc-container">
+  <div class="card-example">
+  <div class="card">
+    <h2 class="app-header-sub">Multiply Form</h2>
+    <div class="card-content">
+      <div class="form">
+        <div class="form-field"></div>
+        <input class="input" id="multi-one" value="">
+        <br>
+        <input class="input" id="multi-two" value="">
+      </div>
+      <div class="form-field">
+        <button type="button" id="multiply-button" class="btn btn-primary full-width">Multiply</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="card">
+  <h2 class="app-header-sub">Results</h2>
+  <div class="card-content">
+    <span id="mul-results"></span>
+  </div>
+</div>
+</div>
+
+<div class="calc-container">
+  <div class="card">
+    <h2 class="app-header-sub">Divide Form</h2>
+    <div class="card-content">
+      <div class="form">
+        <div class="form-field">
+          <input type="text" class="input" id="div-one" value="">
+          <br>
+          <input type="text" class="input" id="div-two" value="">
+        </div>
+        <div class="form-field">
+          <button type="button" id="divide-button" class="btn btn-primary full-width">Divide</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <h2 class="app-header-sub">Results</h2>
+    <div class="card-content">
+
+      <span id="div-results"></span>
+    </div>
+  </div>
+</div>
+
+  <a href="https://lcondon14.github.io/web_231/" class="return-home">Return</a>
+</div>
+<script src="condon-calculator.js"></script>
+  </body>
+</html>
