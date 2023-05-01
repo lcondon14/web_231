@@ -9,7 +9,7 @@
   padding: 10px;
 }
 
-#calc-container {
+.calc-container {
   display: grid;
   width: 800px;
   margin: 3% auto;

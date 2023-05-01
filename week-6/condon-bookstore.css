@@ -10,10 +10,14 @@
   font-weight: lighter;
   background-color: white;
   color: #4f3674;
-
- }
+}
 
  #form-results {
   width: 600px;
   margin:auto
+}
+
+.home-return {
+  width: 600px;
+  margin: auto;
 }

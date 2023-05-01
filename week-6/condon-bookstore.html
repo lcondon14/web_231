@@ -38,7 +38,7 @@
       <div class="form-field">
 
         <label>Choose a listing:</label>
-        <select name="listing-choice" class="drop-down-menu" id="listing-choice">
+        <select name="listing-choice" id="listing-choice">
           <option value="">--Select--</option>
           <option value="books">Top 3 Favorite Books</option>
           <option value="authors">Top 3 Favorite Authors</option>
@@ -48,7 +48,7 @@
 
 <!-- Onclick button linked to js file that gets favorites -->
 <div class="form-field">
-  <button type="button" class="btn btn-primary full-width" id="display-button">Display Listing</button>
+  <button type="button" class="btn btn-primary full-width" id="display-button" onclick="display()">Display Listing</button>
 </div>
       </div>
     </div>
@@ -64,9 +64,11 @@
       <div id="test-results"></div>
     </div>
   </div>
-  <a href="https://lcondon14.github.io/web_231/" class="return-home">Return</a>
-
 </div>
+<div class="home-return">
+
+</div>  <a href="https://lcondon14.github.io/web_231/" class="return-home">Return</a>
+
 
 <!-- Link to external js file -->
 <script src="condon-bookstore.js"></script>
