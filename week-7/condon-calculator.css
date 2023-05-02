@@ -5,6 +5,11 @@
 * Description: Css page for Calculator app
 */
 
+
+/* All following code added for Week 7
+* to look like the assignment
+*/
+
 #container {
   padding: 10px;
 }
@@ -27,13 +32,6 @@
   font-size: 28px;
 }
 
-.card-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 800px;
-  gap: 20px;
-}
 
 .card {
   width: 100%;
