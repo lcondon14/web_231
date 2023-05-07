@@ -187,3 +187,7 @@ table tr:hover {
   color: #4f3674;
   cursor: pointer;
 }
+#form-results {
+  width: 600px;
+  margin:auto
+}
