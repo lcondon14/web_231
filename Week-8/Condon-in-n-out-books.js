@@ -5,7 +5,7 @@
  * Description: JavaScript file for Assignment 8.2
  */
 
-// Object for books titles, ISBN, and pages
+// Object for books ISBN, titles  and pages
 
 const books = {
   isbn: ["978-0307588364", "978-1791392796", "0735219109"],
