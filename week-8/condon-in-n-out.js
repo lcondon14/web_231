@@ -5,7 +5,7 @@
  * Description: JavaScript file for Assignment 8.2
  */
 
-// Object for books ISBN, titles  and pages
+// Object for books ISBN, titles and pages properties
 
 const books = {
   isbn: ["978-0307588364", "978-1791392796", "0735219109"],
@@ -20,13 +20,17 @@ const authors = {
   genre: ["Thriller", "Thriller", "Fiction"]
 };
 
+// Function for the onclick button to display
 function display() {
 
   const choice = document.getElementById('select-value').value;
 
+  // Switch statement for users selection
   switch(choice) {
 
+// Statement for Books including ISBN, author and pages
     case "books":
+// Table for favorite books
     let tblBooks = `
     <h3>Top 3 Favorite Books</h3>
     <table class='table'>
@@ -67,7 +71,7 @@ function display() {
 break;
 
 case "authors":
-
+// Sets up table for authors and genres
 let tblAuthors = `
 <h3>Top 3 Favorite Authors</h3>
 <table class='table'>
@@ -100,11 +104,12 @@ tblAuthors +=`
 </table>
 `;
 
+
 document.getElementById("test-results").innerHTML = tblAuthors;
 
 break;
 
-
+// Sets message if user clicks --Selection--
 default:
   alert('Invalid selection, try again');
 
