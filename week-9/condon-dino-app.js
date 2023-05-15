@@ -3,7 +3,7 @@ class Gigantosaurus {
     this.name = name;
   }
   roar() {
-    return this.name + " says: roooooooar";
+    return `${this.name} says: roooooooar`;
   }
 }
 
@@ -12,7 +12,7 @@ class Tyrannosaurus extends Gigantosaurus {
     super(name);
   }
   growl() {
-    return this.name + " says groooooooowl";
+    return `${this.name} says groooooooowl`;
   }
 }
 
@@ -21,31 +21,32 @@ class Velociraptor extends Tyrannosaurus {
     super(name);
   }
   awk() {
-    return this.name + " says: awk awk awwwwwwwk";
+    return  `${this.name} says: awk awk awwwwwwwk`;
   }
 }
 
-function() {
-  const selection = document.querySelector('input[name="sound"]:checked');
-  const selectionResult = document.getElementById("test-results");
-let message = "";
+const dino = new Velociraptor(selection)
 
-switch (selection?.id) {
-  case "giga":
-    message = giga.roar();
-    break;
-  case "tyrann":
-      message = tyrann.growl();
-      break;
-  case "veloc":
-    message = veloc.awk();
-    break;
-  default:
-    alert("invalid selection, please try again!");
-    return;
+function display() {
+  const giga = document.getElementById('giga')
+  const tyrann = document.getElementById('tyrann')
+  const veloc = document.getElementById('veloc')
+
+  let selection = ''
+  if (giga.checked) {
+    choice  = "giga";
+    result = dino.roar();
+  } else if (tyrann.checked) {
+    choice = "tyrann";
+    result = dino.growl();
+  } else if (veloc.checked) {
+    choice = "veloc";
+    result = dino.awk();
+  } else {
+    alert('Wrong selection, try again!')
+  }
+
+
+
+document.getElementById('test-results').innerHTML = results;
 }
-selectionResult.textContent = message;
-
-}
-
-button.addEventListener("click", display);
